@@ -1,0 +1,53 @@
+/* =================ROOT========================*/
+:root {
+    --sedanCard-bg-color: hsl(31, 77%, 52%);
+    --suvCard-bg-color: hsl(184, 100%, 22%);
+    --luxCard-bg-color: hsl(179, 100%, 13%);
+    --paragraph: hsla(0, 0%, 100%, 0.75);
+    --bg-color: hsl(0, 0%, 95%);
+}
+/* =================ROOT========================*/
+
+/* =================RESETS========================*/
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================RESETS========================*/
+
+body {
+    /* font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+
+
+
+
+/* Frontend Mentor Footer */
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+}
+
+.attribution a {
+    color: var(--sedanCard-bg-color);
+    }
