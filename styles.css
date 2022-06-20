@@ -178,7 +178,7 @@ a {
         border-bottom-left-radius: 0;
     }
 
-    .car-card:first-child:hover {
+    .car-card:first-child:active {
         animation: grow .1s linear forwards;
         transform-origin: bottom;
         border-radius: .5em;
@@ -189,7 +189,7 @@ a {
         border-top-right-radius: 0;
     }
 
-    .car-card:nth-child(3):hover {
+    .car-card:nth-child(3):active {
         animation: grow .1s linear forwards;
         transform-origin: top;
         border-radius: .5em;
