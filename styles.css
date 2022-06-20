@@ -81,12 +81,24 @@ body {
     background-color: var(--sedanCard-bg-color);
 }
 
+.sedan button {
+    color: var(--sedanCard-bg-color);
+}
+
 .suv {
     background-color: var(--suvCard-bg-color);
 }
 
+.suv button {
+    color: var(--suvCard-bg-color);
+}
+
 .lux {
     background-color: var(--luxCard-bg-color);
+}
+
+.lux button {
+    color: var(--luxCard-bg-color);
 }
 
 .car-img-container,
@@ -111,12 +123,11 @@ a {
     padding: 1em 2em;
     border-radius: 999999px;
     background-color: white;
-    color: var(--sedanCard-bg-color);
     border: none;
 }
 
 .learn-more:hover {
-    color: inherit;
+    color: white;
     background-color: inherit;
     outline: 1px solid white;
     cursor: pointer;
