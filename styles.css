@@ -63,18 +63,18 @@ body {
 .car-card:hover {
     animation: grow .1s linear forwards;
     border-radius: .5em;
+    box-shadow:0 0 5px 0 hsl(0, 0%, 45%);
+
 }
 
 .car-card:first-child:hover {
     animation: grow-left .1s linear forwards;
-    /* border-top-right-radius: .5em;
-    border-bottom-right-radius: .5em; */
+    box-shadow:0 0 5px 0 hsl(0, 0%, 45%);
 }
 
 .car-card:nth-child(3):hover {
     animation: grow-right .1s linear forwards;
-    /* border-top-left-radius: .5em;
-    border-bottom-left-radius: .5em; */
+    box-shadow:0 0 5px 0 hsl(0, 0%, 45%);
 }
 
 .sedan {
@@ -125,6 +125,7 @@ a {
 @keyframes grow {
     100% {
         transform: scale(1.05);
+        box-shadow:0 0 5px 0 hsl(0, 0%, 45%);
     }
 }
 
@@ -164,7 +165,7 @@ a {
 @media (max-width: 800px) {
     .main-container {
         flex-direction: column;
-        margin: 2em 0;
+        margin: 3em 0;
     }
 
     .attribution {
@@ -179,6 +180,7 @@ a {
 
     .car-card:first-child:hover {
         animation: grow .1s linear forwards;
+        transform-origin: bottom;
         border-radius: .5em;
     }
 
@@ -189,6 +191,7 @@ a {
 
     .car-card:nth-child(3):hover {
         animation: grow .1s linear forwards;
+        transform-origin: top;
         border-radius: .5em;
     }
 
