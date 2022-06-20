@@ -135,21 +135,21 @@ a {
 
 @keyframes grow {
     100% {
-        transform: scale(1.05);
+        transform: scale(1.03);
         box-shadow:0 0 5px 0 hsl(0, 0%, 45%);
     }
 }
 
 @keyframes grow-left {
     100% {
-        transform: scale(1.05);
+        transform: scale(1.03);
         transform-origin: right;
     }
 }
 
 @keyframes grow-right {
     100% {
-        transform: scale(1.05);
+        transform: scale(1.03);
         transform-origin: left;
     }
 }
